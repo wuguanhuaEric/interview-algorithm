@@ -59,19 +59,16 @@ public:
 		}
 		else
 		{
-
 			if (data <= minstack.top())
 			{
 				minstack.push(data);
 			}
-
 		}
 	}
 
 	void Pop()
 	{
 		assert(!s1.empty() && !minstack.empty());
-
 
 		if (s1.top() == minstack.top())
 		{
@@ -90,13 +87,11 @@ public:
 private:
 	stack<int> s1;
 	stack<int> minstack;
-
 };
 
 int main()
 {
 	Stack s;
-	//s.Push(5);  
 	s.Push(36);
 	s.Push(15);
 	s.Push(95);
