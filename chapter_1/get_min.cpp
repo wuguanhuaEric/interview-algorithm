@@ -83,7 +83,6 @@ public:
 		return minstack.top();
 	}
 
-
 private:
 	stack<int> s1;
 	stack<int> minstack;
